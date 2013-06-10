@@ -1,0 +1,22 @@
+[user]
+	name = Greg Madison
+	email = greg.madison83@gmail.com
+[color]
+	branch = auto
+	status = auto
+	diff = auto
+[color "branch"]
+  current = cyan
+  local = yellow
+  remote = yellow bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[push]
+	default = matching
