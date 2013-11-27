@@ -1,13 +1,13 @@
 set nu
 set tabstop=2
-set shiftwidth=2
-set expandtab
+"set shiftwidth=2
+"set expandtab
 set autoindent
 set t_Co=256
 colo xoria256
 set mouse=a
 syntax on
-set colorcolumn=80
+"set colorcolumn=80
 let &titlestring = hostname() . " [vim ( " . expand("%:t") . " ) ]"
 if &term == "screen"
   set t_ts=^[k
