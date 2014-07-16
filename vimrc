@@ -1,3 +1,5 @@
+set laststatus=2
+set statusline+=%f
 set nu
 set tabstop=2
 set shiftwidth=2
